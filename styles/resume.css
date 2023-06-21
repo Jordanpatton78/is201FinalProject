@@ -1,2 +1,19 @@
 /* This is a stylesheet made completely by scratch */
 
+body{
+    display: flex;
+}
+
+#sidebar{
+    background-color: black;
+    display:flex;
+    margin-left:0 !important;
+}
+
+hr{
+    border-top: 5px;
+}
+
+.date{
+    font-style:italic;
+}
