@@ -10,91 +10,108 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <title>My Resume</title> 
     </head>
-    <body class=>
-        <div id="sidebar" class="justify-content-left">
+    <body class="container-fluid">
+        <nav class="navbar navbar-expand-lg row">
+            <div class="container-fluid">
+                <a href="index.html" id="home">Home</a>
+                <a href="#" id="resume">My Resume</a>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div id="sidebar" class="justify-content-left col-md-3">
+                <div class="col">
+                    <h4 class="m-4 text-white">Jordan Patton</h4>
+                    <h4 class="m-4 text-white">Details</h4>
+                    <p class="m-4 text-white">
+                        1964 N 40 W, Provo, UT 84604<br>
+                        (928)241-8623<br>
+                        Jordantreypatton@gmail.com<br>
+                        Github: Jordanpatton78
+                    </p>
+                    <h4 class="m-4 text-white">Skills</h4>
+                    <ul class="m-4 text-white">
+                        <li>
+                            <p>Conversational Spanish</p>
+                        </li>
+                        <hr class="border-white">
+                        <li>
+                            <p>Front-end Web Development with React and HTML/CSS/Javascript</p>
+                        </li>
+                        <hr class="border-white">
+                        <li>
+                            <p>Back-end Web Development using MySQL and experience using different APIs.</p>
+                        </li>
+                        <hr class="border-white">
+                        <li>
+                            <p>Python</p>
+                        </li>
+                        <hr class="border-white">
+                        <li>
+                            <p>C++</p>
+                        </li>
+                        <hr class="border-white">
+                        <li>
+                            <p>VBA</p>
+                        </li>
+                        <hr class="border-white">
+                        <li>
+                            <p>Tableau</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="col">
-                <h4 class="m-4 text-white">Jordan Patton</h4>
-                <h4 class="m-4 text-white">Details</h4>
-                <p class="m-4 text-white">
-                    1964 N 40 W, Provo, UT 84604<br>
-                    (928)241-8623<br>
-                    Jordantreypatton@gmail.com<br>
-                    Github: Jordanpatton78
-                </p>
-                <h4 class="m-4 text-white">Skills</h4>
-                <ul class="m-4 text-white">
-                    <li>
-                        <p>Conversational Spanish</p>
+                <p class="m-4">Jump to: <a href="#edu">Education</a> | <a href="#exp">Experience</a> | <a href="#projects">Projects</a></p>
+                <ol class="m-4">
+                    <li id="edu">
+                        <h4>Education</h4>
+                        <ul>
+                            <li>
+                                <h5>Bachelor's Degree - Information Systems, Brigham Young University</h5>
+                                <p class="date">2022 - 2026</p>
+                                <p>I'm currently pursuing a Bachelor's Degree in IS from BYU.</p>
+                            </li>
+                        </ul>
                     </li>
-                    <hr class="border-white">
-                    <li>
-                        <p>Front-end Web Development with React and HTML/CSS/Javascript</p>
+                    <li id="exp">
+                        <h4>Experience</h4>
+                        <ul>
+                            <li>
+                                <h5>Web Developer - BYU College of Fine Arts and Communications</h5>
+                                <p class="date">October 2022 - May 2023</p>
+                                <p>I built and maintained websites for the College using HTML, CSS, and Javascript, as well as a CMS called Brightspot. I had the opportunity to improve my leadership skills as well by working as a team lead from January to May.</p>
+                            </li>
+                            <li>
+                                <h5>Research Assistant - BYU Professor Dr. Price</h5>
+                                <p class="date">June 2023 - Present</p>
+                                <p>I currently work on the Computer Vision team making models to process hand-written family history data that Dr. Price uses in his economics research.</p>
+                            </li>
+                        </ul>
                     </li>
-                    <hr class="border-white">
-                    <li>
-                        <p>Back-end Web Development using MySQL and experience using different APIs.</p>
+                    <li id="projects">
+                        <h4>Projects</h4>
+                        <ul>
+                            <li>
+                                <h5>OCR Grading Web Application</h5>
+                                <p>I built a very simple OCR (Optical character recognition) website that uses the Tesseract computer vision model to recognize text. The purpose was to help my mom with the amount of grading she had to do outside of work in her job as an elementary school teacher.</p>
+                                <p>View live site <a href="https://jordanpatton78.github.io/camera-app/">here</a>.</p>
+                                <p>View the source code <a href="https://github.com/Jordanpatton78/camera-app">here</a>.</p>
+                            </li>
+                            <li>
+                                <h5>Budgeting App in VBA</h5>
+                                <p>Using VBA within an Excel spreadsheet, I made an automated way to calculate my weekly budget based on inputs like a meal plan, driving distance, savings, etc, while accounting for what I have already purchased.</p>
+                                <p>View the Excel spreadsheet <a href="Budgeter.xlsm">here</a>.</p>
+                            </li>
+                            <li>
+                                <h5>Full-stack Budgeting App</h5>
+                                <p>This is an in-process app based on my VBA project above that is made to automate budgeting using a tech stack of React, Node.js, Express, and MySQL.</p>
+                                <p>View the source code <a href="https://github.com/Jordanpatton78/Budgeter">here</a>.</p>
+                            </li>
+                        </ul>
                     </li>
-                    <hr class="border-white">
-                    <li>
-                        <p>Python</p>
-                    </li>
-                    <hr class="border-white">
-                    <li>
-                        <p>C++</p>
-                    </li>
-                    <hr class="border-white">
-                    <li>
-                        <p>VBA</p>
-                    </li>
-                    <hr class="border-white">
-                    <li>
-                        <p>Tableau</p>
-                    </li>
-                </ul>
+                </ol>
             </div>
         </div>
-        <ol class="m-4">
-            <li>
-                <h4>Education</h4>
-                <ul>
-                    <li>
-                        <h5>Bachelor's Degree - Information Systems, Brigham Young University</h5>
-                        <p class="date">2022 - 2026</p>
-                        <p>I'm currently pursuing a Bachelor's Degree in IS from BYU.</p>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <h4>Experience</h4>
-                <ul>
-                    <li>
-                        <h5>Web Developer - BYU College of Fine Arts and Communications</h5>
-                        <p class="date">October 2022 - May 2023</p>
-                        <p>I built and maintained websites for the College using HTML, CSS, and Javascript, as well as a CMS called Brightspot. I had the opportunity to improve my leadership skills as well by working as a team lead from January to May.</p>
-                    </li>
-                    <li>
-                        <h5>Research Assistant - BYU Professor Dr. Price</h5>
-                        <p class="date">June 2023 - Present</p>
-                        <p>I currently work on the Computer Vision team making models to process hand-written family history data that Dr. Price uses in his economics research.</p>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <h4>Projects</h4>
-                <ul>
-                    <li>
-                        <h5>OCR Grading Web Application</h5>
-                        <p>I built a very simple OCR (Optical character recognition) website that uses the Tesseract computer vision model to recognize text. The purpose was to help my mom with the amount of grading she had to do outside of work in her job as an elementary school teacher.</p>
-                        <p>View live site <a href="https://jordanpatton78.github.io/camera-app/">here</a>.</p>
-                        <p>View the source code <a href="https://github.com/Jordanpatton78/camera-app">here</a>.</p>
-                    </li>
-                    <li>
-                        <h5>Full-stack Budgeting App</h5>
-                        <p>This is an in-process app to automate budgeting using a tech stack of React, Node.js, Express, and MySQL.</p>
-                        <p>View the source code <a href="https://github.com/Jordanpatton78/Budgeter">here</a>.</p>
-                    </li>
-                </ul>
-            </li>
-        </ol>
     </body>
 </html>

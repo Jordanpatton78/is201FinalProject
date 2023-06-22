@@ -2,6 +2,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
 }
 
 #sidebar{
@@ -16,4 +17,16 @@ hr{
 
 .date{
     font-style:italic;
+}
+
+.navbar{
+    background-color: #262727;
+  }
+
+#resume{
+    margin-right:30%;
+}
+
+#home{
+    margin-left:30%;
 }
