@@ -22,7 +22,8 @@ hr{
 
 .navbar{
     background-color: #262727;
-  }
+    height:30%;
+}
 
 #resume{
     margin-right:30%;
@@ -34,10 +35,17 @@ hr{
 
 #profilePic{
     border-radius: 50%;
-    margin-left:15%;
+    margin-left:5%;
     margin-top:5%;
+    margin-bottom: 5%;
 }
 
 .text{
     color: white;
+}
+#header{
+    height:20%;
+}
+#textCol{
+    padding:5%;
 }
